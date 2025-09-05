@@ -11,7 +11,7 @@ jobs:
 
     env:
       PORT: ${{secrets.PORT}}
-      MONGOURI: ${{secrets.MONGO_URI}}
+      MONGO_URI: ${{secrets.MONGO_URI}}
       JWT_SECRETS: ${{secrets.JWT_SECRET}}
     
     services:
